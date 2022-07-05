@@ -1,4 +1,4 @@
 import pyautogui
 
-def showAlert():
-    pyautogui.alert('This is an alert box.')
+readyButtonLocation = pyautogui.locateOnScreen('ready_button.png')
+print(readyButtonLocation)
